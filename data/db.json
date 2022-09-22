@@ -1,0 +1,92 @@
+{
+    "arriendos":[{
+        "id":"0",
+        "type":"apartment",
+        "location":"Beverly Hills, CA",
+        "area":"1400 Sq Ft",
+        "price":"320,000.00",
+        "image":"../material/Property Image.png"
+        
+    },{
+        "id":"1",
+        "type":"apartment",
+        "location":"Chicago",
+        "area":"2100 Sq Ft",
+        "price":"420,000.00",
+        "image":"../material/Property Image (1).png"
+    },{
+        "id":"2",
+        "type":"house",
+        "location":"New York",
+        "area":"2400 Sq Ft",
+        "price":"420,000.00",
+        "image":"../material/Property Image (2).png"
+    },{
+        "id":"3",
+        "type":"house",
+        "location":"Miami",
+        "area":"2400 Sq Ft",
+        "price":"320,000.00",
+        "image":"../material/Property Image (3).png"
+    },{
+        "id":"4",
+        "type":"house",
+        "location":"Beverly Hills, CA",
+        "area":"1200 Sq Ft",
+        "price":"320,000.00",
+        "image":"../material/Property Image (4).png"
+    },{
+        "id":"5",
+        "type":"house",
+        "location":"Beverly Hills, CA",
+        "area":"1200 Sq Ft",
+        "price":"320,000.00",
+        "image":"../material/Property Image (5).png"
+    },{
+        "id":"6",
+        "type":"apartment",
+        "location":"Chicago",
+        "area":"2400 Sq Ft",
+        "price":"120,000.00",
+        "image":"../material/Property Image.png"
+        
+    },{
+        "id":"7",
+        "type":"apartment",
+        "location":"Chicago",
+        "area":"5200 Sq Ft",
+        "price":"120,000.00",
+        "image":"../material/Property Image (1).png"
+    },{
+        "id":"8",
+        "type":"apartment",
+        "location":"New York",
+        "area":"2400 Sq Ft",
+        "price":"320,000.00",
+        "image":"../material/Property Image (2).png"
+    },{
+        "id":"9",
+        "type":"house",
+        "location":"Los Ángeles",
+        "area":"1500 Sq Ft",
+        "price":"320,000.00",
+        "image":"../material/Property Image (3).png"
+    },{
+        "id":"10",
+        "type":"house",
+        "location":"Boston",
+        "area":"2400 Sq Ft",
+        "price":"520,000.00",
+        "image":"../material/Property Image (4).png"
+    },{
+        "id":"11",
+        "type":"apartment",
+        "location":"Beverly Hills, CA",
+        "area":"2400 Sq Ft",
+        "price":"320,000.00",
+        "image":"../material/Property Image (5).png"
+    }
+
+    ]
+}
+

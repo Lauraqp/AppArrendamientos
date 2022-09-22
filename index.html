@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sprint 3: Arrendamientos</title>
+</head>
+<body>
+    <header>
+        <div class="navBefore"> 
+        <h2>1441 Market St. San Francisco</h2>
+        <h2>(123) 456-7890</h2>
+        <h2>Mon-Sun: 8:00am - 6:00pm</h2>
+        <a id="login" href="">LOGIN/REGISTER</a>
+        </div>
+    
+        <nav>
+          <figure>
+            <img id="logo" src="./material/logo.jpg" alt="logo">
+          </figure>
+          <ul class="listNav">
+            <li><a href="">HOMEPAGE</a></li>
+            <li><a href="">PROPERTIES</a></li>
+            <li><a href="">AGENCIES</a></li>
+            <li><a href="">PAGES</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li id="compare"><a href="">COMPARE</a></li>
+            <li><a id="favorites" href="./pages/favoritos.html">FAVORITES</a></li>
+          </ul>
+          <button id="submitListing">SUBMIT LISTING</button>
+        </nav>
+<!---crear el select y las opciones-->
+        <label id="form">
+          <select name="selects" id="selectLocation">
+            <option value="">Select location</option>
+            <option value="Beverly">Beverly</option>
+            <option value="Chicago">Chicago</option>
+            <option value="New York">New York</option>
+            <option value="Boston">Boston</option>
+            <option value="Los Ángeles">Los Ángeles</option>
+            <option value="Miami">Miami</option>
+          </select>
+          <input type="text" id="status">
+          <input type="text" id="inputSearch" placeholder="Search for type..">
+          
+          <div>
+            <!--crear boton de busqueda-->
+          <button id="btnSearch">FIND PROPERTIES</button>
+        </div>
+
+        </label>
+        <div>
+            <h3>Let Us Guide You Home <br>
+              <span>Find the house of your dreams</span></h3>
+            <figure>
+              <img id="imgHeader" src="./material/hero-bg-image.png" alt="imgHeader">
+            </figure>
+        </div>
+    </header>
+    <!-- //contenedor api -->
+    <main>
+      <div id="containerPrincipal">
+        <article class="targets"></article>
+      
+      </div>
+  
+    </main>
+
+    <footer>
+      <section class="footerHeader">
+        <figure>
+          <img id="logo2" src="./material/Fill 3.png" alt="logo2">
+          <img id="logo3" src="./material/casaRoyal.png" alt="logo3">
+        </figure>
+      </section>
+      <section class="listFooter">
+      <ul>
+        <li><h4>INFORMATION</h4></li>
+        <li><a href="">Our Contacts</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">terms and Conditions</a></li>
+        <li><a href="">FAQs</a></li>
+      </ul>
+      <ul>
+        <li><h4>PROPERTIES</h4></li>
+        <li><a href="">Commercial</a></li>
+        <li><a href="">House</a></li>
+        <li><a href="">Office</a></li>
+        <li><a href="">Residential</a></li>
+        <li><a href="">Residential Tower</a></li>
+      </ul>
+      <ul>
+        <li><h4>LOCATIONS</h4></li>
+        <li><a href="">Beverly Hills</a></li>
+        <li><a href="">Los Angeles</a></li>
+        <li><a href="">Mission Viejo</a></li>
+        <li><a href="">Newport Beach</a></li>
+        <li><a href="">Pasadena</a></li>
+      </ul>
+      <ul>
+        <li><h4>USEFULL LINKS</h4></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Our Contacts </a></li>
+        <li><a href="">Submit Listing</a></li>
+        <li><a href="">Support</a></li>
+      </ul>
+      <ul>
+        <li><h4>ABOUT CASAROYAL</h4></li>
+        <li><p>CasaRoyal- Premium Real Estate Wordpress <br>Theme by FantasyThemes</p></li>
+        <li><p>111 Wall Street, USA, New York +1(234) 567 8900</p></li>
+      </ul>
+      </section>
+      <section class="finalFooter">
+        <ul>
+        <li>Proudly Powered by Wordpress and CasaRoyal by FantasyThemes</li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms and Conditions</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </section>
+    </footer>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
